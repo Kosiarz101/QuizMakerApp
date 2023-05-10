@@ -4,4 +4,5 @@ import com.QuizMaker.QuizMakerApp.models.AppUser;
 
 public interface AppUserRepositoryCustom {
     AppUser add(AppUser entity);
+    AppUser update(AppUser entity);
 }

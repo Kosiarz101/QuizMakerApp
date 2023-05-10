@@ -6,30 +6,24 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 
-import java.time.LocalDateTime;
+import java.util.Set;
 
 @Entity
 @Getter
 @Setter
 @Accessors(chain = true)
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
-public class Quiz extends JPAEntityBase {
+public class Question extends JPAEntityBase {
 
     @Id
     @GeneratedValue
     private Long entityId;
 
-    @Column(nullable = false)
-    private String title;
+    private String question;
 
-    private boolean isTimeLimited;
+    private int points;
 
-    private Long time;
-
-    @Column(nullable = false)
-    private LocalDateTime creationDate;
-
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn
-    private AppUser owner;
+    @JsonIgnoreProperties({"question"})
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "question", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Set<Answer> answers;
 }

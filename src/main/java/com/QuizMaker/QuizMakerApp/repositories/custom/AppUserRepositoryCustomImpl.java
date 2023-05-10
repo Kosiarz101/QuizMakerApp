@@ -22,6 +22,14 @@ public class AppUserRepositoryCustomImpl implements AppUserRepositoryCustom{
     public AppUser add(AppUser entity) {
         entity.setPassword(passwordEncoder.encode(entity.getPassword()));
         entityManager.persist(entity);
-        return null;
+        return entity;
+    }
+
+    @Override
+    @Transactional
+    public AppUser update(AppUser entity) {
+        entity.setPassword(passwordEncoder.encode(entity.getPassword()));
+        entityManager.merge(entity);
+        return entity;
     }
 }

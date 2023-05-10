@@ -1,7 +1,6 @@
 package com.QuizMaker.QuizMakerApp.controllers;
 
 import com.QuizMaker.QuizMakerApp.models.Quiz;
-import com.QuizMaker.QuizMakerApp.models.Role;
 import com.QuizMaker.QuizMakerApp.repositories.jpa.QuizRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
@@ -24,7 +23,7 @@ public class QuizController {
 
     @GetMapping
     @Transactional
-    public ResponseEntity<List<Quiz>> getRoles() {
+    public ResponseEntity<List<Quiz>> getQuizzes() {
         List<Quiz> quizzes = quizRepository.findAll(Sort.by("creationDate").ascending());
         return ResponseEntity.status(200).body(quizzes);
     }
@@ -41,8 +40,8 @@ public class QuizController {
         Optional<Long> entityIdOptional = quizRepository.getEntityIdById(id);
         Long entityId = entityIdOptional
                 .orElseThrow(() -> new ResponseStatusException(HttpStatusCode.valueOf(404), "Resource with id " + id + " was not found"));
-        newQuiz.setEntityId(entityId);
-        newQuiz.setId(id);
+        newQuiz.setEntityId(entityId)
+                .setId(id);
         quizRepository.save(newQuiz);
         return ResponseEntity.status(200).body(newQuiz);
     }

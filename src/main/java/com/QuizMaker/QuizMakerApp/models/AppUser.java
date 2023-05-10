@@ -24,7 +24,7 @@ public class AppUser extends JPAEntityBase implements UserDetails {
     @GeneratedValue
     private Long entityId;
 
-    @Column(nullable = false)
+    @Column(nullable = false, unique = true)
     private String email;
 
     private String username;
@@ -37,6 +37,7 @@ public class AppUser extends JPAEntityBase implements UserDetails {
     @JsonIgnoreProperties({"users"})
     private Role role;
 
+    @JsonIgnoreProperties({"owner"})
     @OneToMany(cascade = {CascadeType.MERGE, CascadeType.REMOVE}, fetch = FetchType.LAZY, mappedBy = "owner")
     private Set<Quiz> quizzes;
 
