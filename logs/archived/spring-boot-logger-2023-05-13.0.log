@@ -1,0 +1,569 @@
+2023-05-13 18:03:56,777 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@7ae42ce3 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@4f5991f6 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.QuizMaker.QuizMakerApp.QuizMakerAppApplication.main(QuizMakerAppApplication.java:14)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@7ae42ce3 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@4f5991f6 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:260)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:247)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:187)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+2023-05-13 18:05:37,537 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@c94fd30 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.QuizMaker.QuizMakerApp.QuizMakerAppApplication.main(QuizMakerAppApplication.java:14)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.classic.pattern.ClassOfCallerConverter@c94fd30 - failed to parse integer string [1.] java.lang.NumberFormatException: For input string: "1."
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:260)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:247)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:187)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+2023-05-13 18:07:25,5082023-05-13 18:07:25,5092023-05-13 18:07:25,9052023-05-13 18:07:25,9592023-05-13 18:07:26,3752023-05-13 18:07:26,3822023-05-13 18:07:26,3822023-05-13 18:07:26,4682023-05-13 18:07:26,4702023-05-13 18:07:26,6282023-05-13 18:07:26,6702023-05-13 18:07:26,8332023-05-13 18:07:26,9552023-05-13 18:07:26,9562023-05-13 18:07:26,9982023-05-13 18:07:27,6542023-05-13 18:07:27,6592023-05-13 18:07:28,2702023-05-13 18:07:28,4882023-05-13 18:07:28,6482023-05-13 18:07:28,656${CONSOLE_LOG_PATTERNjava.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.model.processor.ModelInterpretationContext@34c01041 - Problem while parsing [${CONSOLE_LOG_PATTERN] java.lang.IllegalArgumentException: All tokens consumed but was expecting "}"
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
+	at com.QuizMaker.QuizMakerApp.QuizMakerAppApplication.main(QuizMakerAppApplication.java:14)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.model.processor.ModelInterpretationContext@34c01041 - Problem while parsing [${CONSOLE_LOG_PATTERN] java.lang.IllegalArgumentException: All tokens consumed but was expecting "}"
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:260)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:247)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:187)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+[2m2023-05-13T18:08:45.248+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.Q.Q.QuizMakerAppApplication           [0;39m [2m:[0;39m Starting QuizMakerAppApplication using Java 17.0.6 with PID 17244 (F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp\build\classes\java\main started by Kosiarz in F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp)
+[2m2023-05-13T18:08:45.250+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.Q.Q.QuizMakerAppApplication           [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2023-05-13T18:08:45.662+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2023-05-13T18:08:45.719+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 51 ms. Found 6 JPA repository interfaces.
+[2m2023-05-13T18:08:46.132+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8099 (http)
+[2m2023-05-13T18:08:46.139+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2023-05-13T18:08:46.139+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.8]
+[2m2023-05-13T18:08:46.220+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2023-05-13T18:08:46.221+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 934 ms
+[2m2023-05-13T18:08:46.341+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2023-05-13T18:08:46.374+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 6.1.7.Final
+[2m2023-05-13T18:08:46.544+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2023-05-13T18:08:46.665+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e4f4092
+[2m2023-05-13T18:08:46.666+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2023-05-13T18:08:46.697+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mSQL dialect                             [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2m2023-05-13T18:08:47.329+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2023-05-13T18:08:47.334+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2023-05-13T18:08:47.968+02:00[0;39m [33m WARN[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2023-05-13T18:08:48.207+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@321302bc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@89dd102, org.springframework.security.web.context.SecurityContextHolderFilter@51d80f6e, org.springframework.security.web.header.HeaderWriterFilter@66c91224, org.springframework.security.web.authentication.logout.LogoutFilter@7e0393df, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7ef8899d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55f54852, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29682244, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b826482, org.springframework.security.web.access.ExceptionTranslationFilter@4fcb796f, org.springframework.security.web.access.intercept.AuthorizationFilter@cfe72b0]
+[2m2023-05-13T18:08:48.380+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8099 (http) with context path ''
+[2m2023-05-13T18:08:48.389+02:00[0;39m [32m INFO[0;39m [35m17244[0;39m [2m---[0;39m [2m[           main][0;39m [36mc.Q.Q.QuizMakerAppApplication           [0;39m [2m:[0;39m Started QuizMakerAppApplication in 3.474 seconds (process running for 3.705)
+2023-05-13T18:09:14.498+02:00  INFO 12484 --- [main] c.Q.Q.QuizMakerAppApplication            : Starting QuizMakerAppApplication using Java 17.0.6 with PID 12484 (F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp\build\classes\java\main started by Kosiarz in F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp)
+2023-05-13T18:09:14.501+02:00  INFO 12484 --- [main] c.Q.Q.QuizMakerAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-05-13T18:09:14.902+02:00  INFO 12484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13T18:09:14.959+02:00  INFO 12484 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 6 JPA repository interfaces.
+2023-05-13T18:09:15.354+02:00  INFO 12484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2023-05-13T18:09:15.361+02:00  INFO 12484 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13T18:09:15.361+02:00  INFO 12484 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-13T18:09:15.436+02:00  INFO 12484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13T18:09:15.438+02:00  INFO 12484 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 901 ms
+2023-05-13T18:09:15.594+02:00  INFO 12484 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13T18:09:15.639+02:00  INFO 12484 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-13T18:09:15.832+02:00  INFO 12484 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13T18:09:15.949+02:00  INFO 12484 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e4f4092
+2023-05-13T18:09:15.951+02:00  INFO 12484 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13T18:09:15.976+02:00  INFO 12484 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-13T18:09:16.633+02:00  INFO 12484 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13T18:09:16.638+02:00  INFO 12484 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13T18:09:17.214+02:00  WARN 12484 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13T18:09:17.518+02:00  INFO 12484 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@321302bc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@89dd102, org.springframework.security.web.context.SecurityContextHolderFilter@51d80f6e, org.springframework.security.web.header.HeaderWriterFilter@66c91224, org.springframework.security.web.authentication.logout.LogoutFilter@7e0393df, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7ef8899d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55f54852, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29682244, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b826482, org.springframework.security.web.access.ExceptionTranslationFilter@4fcb796f, org.springframework.security.web.access.intercept.AuthorizationFilter@cfe72b0]
+2023-05-13T18:09:17.694+02:00  INFO 12484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2023-05-13T18:09:17.703+02:00  INFO 12484 --- [main] c.Q.Q.QuizMakerAppApplication            : Started QuizMakerAppApplication in 3.54 seconds (process running for 3.775)
+2023-05-13T18:24:39.084+02:00  INFO 14560 --- [main] c.Q.Q.QuizMakerAppApplication            : Starting QuizMakerAppApplication using Java 17.0.6 with PID 14560 (F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp\build\classes\java\main started by Kosiarz in F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp)
+2023-05-13T18:24:39.086+02:00  INFO 14560 --- [main] c.Q.Q.QuizMakerAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-05-13T18:24:39.493+02:00  INFO 14560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13T18:24:39.553+02:00  INFO 14560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 6 JPA repository interfaces.
+2023-05-13T18:24:39.973+02:00  INFO 14560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2023-05-13T18:24:39.979+02:00  INFO 14560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13T18:24:39.980+02:00  INFO 14560 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-13T18:24:40.055+02:00  INFO 14560 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13T18:24:40.056+02:00  INFO 14560 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 933 ms
+2023-05-13T18:24:40.238+02:00  INFO 14560 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13T18:24:40.306+02:00  INFO 14560 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-13T18:24:40.472+02:00  INFO 14560 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13T18:24:40.591+02:00  INFO 14560 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e4f4092
+2023-05-13T18:24:40.592+02:00  INFO 14560 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13T18:24:40.621+02:00  INFO 14560 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-13T18:24:41.261+02:00  INFO 14560 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13T18:24:41.266+02:00  INFO 14560 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13T18:24:41.870+02:00  WARN 14560 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13T18:24:42.128+02:00  INFO 14560 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@321302bc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@89dd102, org.springframework.security.web.context.SecurityContextHolderFilter@51d80f6e, org.springframework.security.web.header.HeaderWriterFilter@66c91224, org.springframework.security.web.authentication.logout.LogoutFilter@7e0393df, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7ef8899d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55f54852, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29682244, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b826482, org.springframework.security.web.access.ExceptionTranslationFilter@4fcb796f, org.springframework.security.web.access.intercept.AuthorizationFilter@cfe72b0]
+2023-05-13T18:24:42.287+02:00  INFO 14560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2023-05-13T18:24:42.296+02:00  INFO 14560 --- [main] c.Q.Q.QuizMakerAppApplication            : Started QuizMakerAppApplication in 3.551 seconds (process running for 3.783)
+2023-05-13T18:25:44.119+02:00  INFO 14560 --- [http-nio-8099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13T18:25:44.119+02:00  INFO 14560 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13T18:25:44.120+02:00  INFO 14560 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-13T18:26:59.750+02:00  WARN 14560 --- [http-nio-8099-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23503
+2023-05-13T18:26:59.751+02:00 ERROR 14560 --- [http-nio-8099-exec-5] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: insert or update on table "app_user" violates foreign key constraint "fk18kbgjas8fv5p7olyictt6x14"
+  Szczegó³y: Key (role_entity_id)=(2) is not present in table "role".
+2023-05-13T18:26:59.752+02:00  INFO 14560 --- [http-nio-8099-exec-5] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2023-05-13T18:26:59.756+02:00 ERROR 14560 --- [http-nio-8099-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [fk18kbgjas8fv5p7olyictt6x14]] with root cause
+
+org.postgresql.util.PSQLException: ERROR: insert or update on table "app_user" violates foreign key constraint "fk18kbgjas8fv5p7olyictt6x14"
+  Szczegó³y: Key (role_entity_id)=(2) is not present in table "role".
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:39)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3438)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:4073)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:103)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:612)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:483)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:480)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:329)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:477)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2234)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1930)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:561)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:660)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:410)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:702)
+	at com.QuizMaker.QuizMakerApp.controllers.AppUserController$$SpringCGLIB$$0.createAppUser(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:170)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-05-13T18:28:25.010+02:00  INFO 19200 --- [main] c.Q.Q.QuizMakerAppApplication            : Starting QuizMakerAppApplication using Java 17.0.6 with PID 19200 (F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp\build\classes\java\main started by Kosiarz in F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp)
+2023-05-13T18:28:25.012+02:00  INFO 19200 --- [main] c.Q.Q.QuizMakerAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-05-13T18:28:25.437+02:00  INFO 19200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13T18:28:25.497+02:00  INFO 19200 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 6 JPA repository interfaces.
+2023-05-13T18:28:25.948+02:00  INFO 19200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2023-05-13T18:28:25.956+02:00  INFO 19200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13T18:28:25.957+02:00  INFO 19200 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-13T18:28:26.048+02:00  INFO 19200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13T18:28:26.049+02:00  INFO 19200 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1000 ms
+2023-05-13T18:28:26.226+02:00  INFO 19200 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13T18:28:26.279+02:00  INFO 19200 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-13T18:28:26.525+02:00  INFO 19200 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13T18:28:26.659+02:00  INFO 19200 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d829ef0
+2023-05-13T18:28:26.661+02:00  INFO 19200 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13T18:28:26.690+02:00  INFO 19200 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-13T18:28:27.430+02:00  INFO 19200 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13T18:28:27.436+02:00  INFO 19200 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13T18:28:28.074+02:00  WARN 19200 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13T18:28:28.334+02:00  INFO 19200 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@89dd102, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b826482, org.springframework.security.web.context.SecurityContextHolderFilter@7fae6f43, org.springframework.security.web.header.HeaderWriterFilter@4ffcb1bd, org.springframework.security.web.authentication.logout.LogoutFilter@62b2bc2e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@41bc501b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4bca2a09, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3368cf02, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f908a10, org.springframework.security.web.access.ExceptionTranslationFilter@1483c738, org.springframework.security.web.access.intercept.AuthorizationFilter@12f933c7]
+2023-05-13T18:28:28.503+02:00  INFO 19200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2023-05-13T18:28:28.512+02:00  INFO 19200 --- [main] c.Q.Q.QuizMakerAppApplication            : Started QuizMakerAppApplication in 3.856 seconds (process running for 4.115)
+2023-05-13T18:28:42.165+02:00  INFO 19200 --- [http-nio-8099-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13T18:28:42.165+02:00  INFO 19200 --- [http-nio-8099-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13T18:28:42.166+02:00  INFO 19200 --- [http-nio-8099-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-13T18:30:34.744+02:00  WARN 19200 --- [http-nio-8099-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; UUID string too large]
+2023-05-13T18:31:00.006+02:00  WARN 19200 --- [http-nio-8099-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; UUID string too large]
+2023-05-13T18:31:29.101+02:00  INFO 19200 --- [http-nio-8099-exec-3] c.Q.Q.c.ExceptionHandlerController       : 404 NOT_FOUND "Resource with id 713080fd-803f-452a-8ecc-2de0949cf8dc was not found"
+2023-05-13T18:36:44.556+02:00  INFO 18404 --- [main] c.Q.Q.QuizMakerAppApplication            : Starting QuizMakerAppApplication using Java 17.0.6 with PID 18404 (F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp\build\classes\java\main started by Kosiarz in F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp)
+2023-05-13T18:36:44.557+02:00  INFO 18404 --- [main] c.Q.Q.QuizMakerAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-05-13T18:36:44.960+02:00  INFO 18404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13T18:36:45.020+02:00  INFO 18404 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 6 JPA repository interfaces.
+2023-05-13T18:36:45.425+02:00  INFO 18404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2023-05-13T18:36:45.431+02:00  INFO 18404 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13T18:36:45.431+02:00  INFO 18404 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-13T18:36:45.518+02:00  INFO 18404 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13T18:36:45.519+02:00  INFO 18404 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 924 ms
+2023-05-13T18:36:45.686+02:00  INFO 18404 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13T18:36:45.755+02:00  INFO 18404 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-13T18:36:45.923+02:00  INFO 18404 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13T18:36:46.049+02:00  INFO 18404 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e4f4092
+2023-05-13T18:36:46.051+02:00  INFO 18404 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13T18:36:46.074+02:00  INFO 18404 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-13T18:36:46.766+02:00  INFO 18404 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13T18:36:46.771+02:00  INFO 18404 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13T18:36:47.379+02:00  WARN 18404 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13T18:36:47.614+02:00  INFO 18404 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@31887330, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65528bcf, org.springframework.security.web.context.SecurityContextHolderFilter@321302bc, org.springframework.security.web.header.HeaderWriterFilter@7ef8899d, org.springframework.security.web.authentication.logout.LogoutFilter@3070f59f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@c0b10ae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b826482, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b517357, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7bb4f09d, org.springframework.security.web.access.ExceptionTranslationFilter@2981064d, org.springframework.security.web.access.intercept.AuthorizationFilter@3abd7b20]
+2023-05-13T18:36:47.759+02:00  INFO 18404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2023-05-13T18:36:47.766+02:00  INFO 18404 --- [main] c.Q.Q.QuizMakerAppApplication            : Started QuizMakerAppApplication in 3.55 seconds (process running for 3.792)
+2023-05-13T18:37:39.352+02:00  INFO 18404 --- [http-nio-8099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13T18:37:39.352+02:00  INFO 18404 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13T18:37:39.353+02:00  INFO 18404 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-13T18:37:39.574+02:00  INFO 18404 --- [http-nio-8099-exec-1] c.Q.Q.c.ExceptionHandlerController       : 404 NOT_FOUND "Resource with id 713080fd-803f-452a-8ecc-2de0949cf8dc was not found"
+2023-05-13T18:37:57.516+02:00  INFO 19216 --- [main] c.Q.Q.QuizMakerAppApplication            : Starting QuizMakerAppApplication using Java 17.0.6 with PID 19216 (F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp\build\classes\java\main started by Kosiarz in F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp)
+2023-05-13T18:37:57.517+02:00  INFO 19216 --- [main] c.Q.Q.QuizMakerAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-05-13T18:37:57.929+02:00  INFO 19216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13T18:37:57.985+02:00  INFO 19216 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 6 JPA repository interfaces.
+2023-05-13T18:37:58.401+02:00  INFO 19216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2023-05-13T18:37:58.409+02:00  INFO 19216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13T18:37:58.409+02:00  INFO 19216 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-13T18:37:58.488+02:00  INFO 19216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13T18:37:58.489+02:00  INFO 19216 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 933 ms
+2023-05-13T18:37:58.608+02:00  INFO 19216 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13T18:37:58.651+02:00  INFO 19216 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-13T18:37:58.832+02:00  INFO 19216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13T18:37:58.951+02:00  INFO 19216 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d829ef0
+2023-05-13T18:37:58.952+02:00  INFO 19216 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13T18:37:58.993+02:00  INFO 19216 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-13T18:37:59.648+02:00  INFO 19216 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13T18:37:59.654+02:00  INFO 19216 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13T18:38:00.289+02:00  WARN 19216 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13T18:38:00.546+02:00  INFO 19216 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65528bcf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7bb4f09d, org.springframework.security.web.context.SecurityContextHolderFilter@89dd102, org.springframework.security.web.header.HeaderWriterFilter@41bc501b, org.springframework.security.web.authentication.logout.LogoutFilter@2f16c21f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3c3a767, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f908a10, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@702ab027, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ee7a538, org.springframework.security.web.access.ExceptionTranslationFilter@1dc9e4d2, org.springframework.security.web.access.intercept.AuthorizationFilter@329a27ae]
+2023-05-13T18:38:00.715+02:00  INFO 19216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2023-05-13T18:38:00.723+02:00  INFO 19216 --- [main] c.Q.Q.QuizMakerAppApplication            : Started QuizMakerAppApplication in 3.551 seconds (process running for 3.786)
+2023-05-13T18:38:09.256+02:00  INFO 19216 --- [http-nio-8099-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13T18:38:09.256+02:00  INFO 19216 --- [http-nio-8099-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13T18:38:09.257+02:00  INFO 19216 --- [http-nio-8099-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-05-13T18:38:27.962+02:00  INFO 3480 --- [main] c.Q.Q.QuizMakerAppApplication            : Starting QuizMakerAppApplication using Java 17.0.6 with PID 3480 (F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp\build\classes\java\main started by Kosiarz in F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp)
+2023-05-13T18:38:27.963+02:00  INFO 3480 --- [main] c.Q.Q.QuizMakerAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-05-13T18:38:28.385+02:00  INFO 3480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13T18:38:28.439+02:00  INFO 3480 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 6 JPA repository interfaces.
+2023-05-13T18:38:28.849+02:00  INFO 3480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2023-05-13T18:38:28.858+02:00  INFO 3480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13T18:38:28.858+02:00  INFO 3480 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-13T18:38:28.932+02:00  INFO 3480 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13T18:38:28.934+02:00  INFO 3480 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 930 ms
+2023-05-13T18:38:29.060+02:00  INFO 3480 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13T18:38:29.097+02:00  INFO 3480 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-13T18:38:29.279+02:00  INFO 3480 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13T18:38:29.394+02:00  INFO 3480 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d829ef0
+2023-05-13T18:38:29.395+02:00  INFO 3480 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13T18:38:29.418+02:00  INFO 3480 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-13T18:38:30.087+02:00  INFO 3480 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13T18:38:30.093+02:00  INFO 3480 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13T18:38:30.681+02:00  WARN 3480 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13T18:38:30.941+02:00  INFO 3480 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65528bcf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7bb4f09d, org.springframework.security.web.context.SecurityContextHolderFilter@89dd102, org.springframework.security.web.header.HeaderWriterFilter@41bc501b, org.springframework.security.web.authentication.logout.LogoutFilter@2f16c21f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3c3a767, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f908a10, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@702ab027, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ee7a538, org.springframework.security.web.access.ExceptionTranslationFilter@1dc9e4d2, org.springframework.security.web.access.intercept.AuthorizationFilter@329a27ae]
+2023-05-13T18:38:31.111+02:00  INFO 3480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2023-05-13T18:38:31.121+02:00  INFO 3480 --- [main] c.Q.Q.QuizMakerAppApplication            : Started QuizMakerAppApplication in 3.504 seconds (process running for 3.744)
+2023-05-13T18:38:36.146+02:00  INFO 3480 --- [http-nio-8099-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13T18:38:36.146+02:00  INFO 3480 --- [http-nio-8099-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13T18:38:36.147+02:00  INFO 3480 --- [http-nio-8099-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-13T18:38:36.366+02:00  INFO 3480 --- [http-nio-8099-exec-2] c.Q.Q.c.ExceptionHandlerController       : 404 NOT_FOUND "Resource with id 713080fd-803f-452a-8ecc-2de0949cf8dc was not found"
+2023-05-13T18:38:45.657+02:00  INFO 9104 --- [main] c.Q.Q.QuizMakerAppApplication            : Starting QuizMakerAppApplication using Java 17.0.6 with PID 9104 (F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp\build\classes\java\main started by Kosiarz in F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp)
+2023-05-13T18:38:45.662+02:00  INFO 9104 --- [main] c.Q.Q.QuizMakerAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-05-13T18:38:46.072+02:00  INFO 9104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13T18:38:46.127+02:00  INFO 9104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 6 JPA repository interfaces.
+2023-05-13T18:38:46.531+02:00  INFO 9104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2023-05-13T18:38:46.537+02:00  INFO 9104 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13T18:38:46.537+02:00  INFO 9104 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-13T18:38:46.605+02:00  INFO 9104 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13T18:38:46.607+02:00  INFO 9104 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 907 ms
+2023-05-13T18:38:46.731+02:00  INFO 9104 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13T18:38:46.764+02:00  INFO 9104 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-13T18:38:46.943+02:00  INFO 9104 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13T18:38:47.067+02:00  INFO 9104 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4416e18d
+2023-05-13T18:38:47.068+02:00  INFO 9104 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13T18:38:47.091+02:00  INFO 9104 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-13T18:38:47.741+02:00  INFO 9104 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13T18:38:47.747+02:00  INFO 9104 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13T18:38:48.356+02:00  WARN 9104 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13T18:38:48.645+02:00  INFO 9104 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7c045627, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d79a69b, org.springframework.security.web.context.SecurityContextHolderFilter@153c69bc, org.springframework.security.web.header.HeaderWriterFilter@89dd102, org.springframework.security.web.authentication.logout.LogoutFilter@4545cfc0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@65528bcf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b517357, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@489989eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51158fb1, org.springframework.security.web.access.ExceptionTranslationFilter@60ae950f, org.springframework.security.web.access.intercept.AuthorizationFilter@f69e35a]
+2023-05-13T18:38:48.861+02:00  INFO 9104 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2023-05-13T18:38:48.870+02:00  INFO 9104 --- [main] c.Q.Q.QuizMakerAppApplication            : Started QuizMakerAppApplication in 3.55 seconds (process running for 3.787)
+2023-05-13T18:38:52.361+02:00  INFO 9104 --- [http-nio-8099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13T18:38:52.361+02:00  INFO 9104 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13T18:38:52.362+02:00  INFO 9104 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-13T18:38:52.579+02:00  INFO 9104 --- [http-nio-8099-exec-1] c.Q.Q.c.ExceptionHandlerController       : 404 NOT_FOUND "Resource with id 713080fd-803f-452a-8ecc-2de0949cf8dc was not found"
+2023-05-13T18:40:58.781+02:00  INFO 18880 --- [main] c.Q.Q.QuizMakerAppApplication            : Starting QuizMakerAppApplication using Java 17.0.6 with PID 18880 (F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp\build\classes\java\main started by Kosiarz in F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp)
+2023-05-13T18:40:58.783+02:00  INFO 18880 --- [main] c.Q.Q.QuizMakerAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-05-13T18:40:59.203+02:00  INFO 18880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13T18:40:59.260+02:00  INFO 18880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 6 JPA repository interfaces.
+2023-05-13T18:40:59.680+02:00  INFO 18880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2023-05-13T18:40:59.688+02:00  INFO 18880 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13T18:40:59.688+02:00  INFO 18880 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-13T18:40:59.760+02:00  INFO 18880 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13T18:40:59.761+02:00  INFO 18880 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 939 ms
+2023-05-13T18:40:59.908+02:00  INFO 18880 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13T18:40:59.949+02:00  INFO 18880 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-13T18:41:00.130+02:00  INFO 18880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13T18:41:00.246+02:00  INFO 18880 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3120495d
+2023-05-13T18:41:00.248+02:00  INFO 18880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13T18:41:00.274+02:00  INFO 18880 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-13T18:41:00.934+02:00  INFO 18880 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13T18:41:00.939+02:00  INFO 18880 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13T18:41:01.546+02:00  WARN 18880 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13T18:41:01.846+02:00  INFO 18880 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@51158fb1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62682ece, org.springframework.security.web.context.SecurityContextHolderFilter@4b517357, org.springframework.security.web.header.HeaderWriterFilter@3f908a10, org.springframework.security.web.authentication.logout.LogoutFilter@58ca1cad, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@ee7a538, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62d5617, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e6cd1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c83e9ca, org.springframework.security.web.access.ExceptionTranslationFilter@89dd102, org.springframework.security.web.access.intercept.AuthorizationFilter@602e7a9e]
+2023-05-13T18:41:02.034+02:00  INFO 18880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2023-05-13T18:41:02.042+02:00  INFO 18880 --- [main] c.Q.Q.QuizMakerAppApplication            : Started QuizMakerAppApplication in 3.608 seconds (process running for 3.847)
+2023-05-13T18:41:16.193+02:00  INFO 18880 --- [http-nio-8099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13T18:41:16.194+02:00  INFO 18880 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13T18:41:16.194+02:00  INFO 18880 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-05-13T18:42:39.907+02:00  INFO 3572 --- [main] c.Q.Q.QuizMakerAppApplication            : Starting QuizMakerAppApplication using Java 17.0.6 with PID 3572 (F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp\build\classes\java\main started by Kosiarz in F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp)
+2023-05-13T18:42:39.909+02:00  INFO 3572 --- [main] c.Q.Q.QuizMakerAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-05-13T18:42:40.325+02:00  INFO 3572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13T18:42:40.381+02:00  INFO 3572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 6 JPA repository interfaces.
+2023-05-13T18:42:40.790+02:00  INFO 3572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2023-05-13T18:42:40.799+02:00  INFO 3572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13T18:42:40.799+02:00  INFO 3572 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-13T18:42:40.876+02:00  INFO 3572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13T18:42:40.877+02:00  INFO 3572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 928 ms
+2023-05-13T18:42:40.990+02:00  INFO 3572 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13T18:42:41.034+02:00  INFO 3572 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-13T18:42:41.223+02:00  INFO 3572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13T18:42:41.341+02:00  INFO 3572 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5dfc2a4
+2023-05-13T18:42:41.343+02:00  INFO 3572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13T18:42:41.367+02:00  INFO 3572 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-13T18:42:42.002+02:00  INFO 3572 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13T18:42:42.009+02:00  INFO 3572 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13T18:42:42.601+02:00  WARN 3572 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13T18:42:42.878+02:00  INFO 3572 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@ee7a538, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c045627, org.springframework.security.web.context.SecurityContextHolderFilter@3f908a10, org.springframework.security.web.header.HeaderWriterFilter@321302bc, org.springframework.security.web.authentication.logout.LogoutFilter@72ae1007, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@31887330, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73cfafd8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8929865, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d79a69b, org.springframework.security.web.access.ExceptionTranslationFilter@41bc501b, org.springframework.security.web.access.intercept.AuthorizationFilter@5edce7da]
+2023-05-13T18:42:43.033+02:00  INFO 3572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2023-05-13T18:42:43.042+02:00  INFO 3572 --- [main] c.Q.Q.QuizMakerAppApplication            : Started QuizMakerAppApplication in 3.473 seconds (process running for 3.708)
+2023-05-13T18:43:01.197+02:00  INFO 3572 --- [http-nio-8099-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13T18:43:01.198+02:00  INFO 3572 --- [http-nio-8099-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13T18:43:01.199+02:00  INFO 3572 --- [http-nio-8099-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-05-13T18:43:12.102+02:00  INFO 17284 --- [main] c.Q.Q.QuizMakerAppApplication            : Starting QuizMakerAppApplication using Java 17.0.6 with PID 17284 (F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp\build\classes\java\main started by Kosiarz in F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp)
+2023-05-13T18:43:12.104+02:00  INFO 17284 --- [main] c.Q.Q.QuizMakerAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-05-13T18:43:12.522+02:00  INFO 17284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13T18:43:12.581+02:00  INFO 17284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 6 JPA repository interfaces.
+2023-05-13T18:43:13.083+02:00  INFO 17284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2023-05-13T18:43:13.090+02:00  INFO 17284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13T18:43:13.090+02:00  INFO 17284 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-13T18:43:13.170+02:00  INFO 17284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13T18:43:13.171+02:00  INFO 17284 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1031 ms
+2023-05-13T18:43:13.333+02:00  INFO 17284 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13T18:43:13.402+02:00  INFO 17284 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-13T18:43:13.637+02:00  INFO 17284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13T18:43:13.773+02:00  INFO 17284 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3120495d
+2023-05-13T18:43:13.775+02:00  INFO 17284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13T18:43:13.797+02:00  INFO 17284 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-13T18:43:14.473+02:00  INFO 17284 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13T18:43:14.479+02:00  INFO 17284 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13T18:43:15.099+02:00  WARN 17284 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13T18:43:15.307+02:00  INFO 17284 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7c045627, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d79a69b, org.springframework.security.web.context.SecurityContextHolderFilter@153c69bc, org.springframework.security.web.header.HeaderWriterFilter@89dd102, org.springframework.security.web.authentication.logout.LogoutFilter@4545cfc0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@65528bcf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b517357, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@489989eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51158fb1, org.springframework.security.web.access.ExceptionTranslationFilter@60ae950f, org.springframework.security.web.access.intercept.AuthorizationFilter@f69e35a]
+2023-05-13T18:43:15.484+02:00  INFO 17284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2023-05-13T18:43:15.492+02:00  INFO 17284 --- [main] c.Q.Q.QuizMakerAppApplication            : Started QuizMakerAppApplication in 3.754 seconds (process running for 4.001)
+2023-05-13T18:43:21.950+02:00  INFO 17284 --- [http-nio-8099-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13T18:43:21.950+02:00  INFO 17284 --- [http-nio-8099-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13T18:43:21.951+02:00  INFO 17284 --- [http-nio-8099-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-13T18:44:30.698+02:00  INFO 19312 --- [main] c.Q.Q.QuizMakerAppApplication            : Starting QuizMakerAppApplication using Java 17.0.6 with PID 19312 (F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp\build\classes\java\main started by Kosiarz in F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp)
+2023-05-13T18:44:30.699+02:00  INFO 19312 --- [main] c.Q.Q.QuizMakerAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-05-13T18:44:31.137+02:00  INFO 19312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13T18:44:31.197+02:00  INFO 19312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 6 JPA repository interfaces.
+2023-05-13T18:44:31.684+02:00  INFO 19312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2023-05-13T18:44:31.692+02:00  INFO 19312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13T18:44:31.692+02:00  INFO 19312 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-13T18:44:31.796+02:00  INFO 19312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13T18:44:31.798+02:00  INFO 19312 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1059 ms
+2023-05-13T18:44:32.006+02:00  INFO 19312 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13T18:44:32.084+02:00  INFO 19312 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-13T18:44:32.328+02:00  INFO 19312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13T18:44:32.456+02:00  INFO 19312 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3120495d
+2023-05-13T18:44:32.457+02:00  INFO 19312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13T18:44:32.487+02:00  INFO 19312 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-13T18:44:33.250+02:00  INFO 19312 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13T18:44:33.256+02:00  INFO 19312 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13T18:44:33.859+02:00  WARN 19312 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13T18:44:34.097+02:00  INFO 19312 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7c045627, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d79a69b, org.springframework.security.web.context.SecurityContextHolderFilter@153c69bc, org.springframework.security.web.header.HeaderWriterFilter@89dd102, org.springframework.security.web.authentication.logout.LogoutFilter@4545cfc0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@65528bcf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b517357, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@489989eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51158fb1, org.springframework.security.web.access.ExceptionTranslationFilter@60ae950f, org.springframework.security.web.access.intercept.AuthorizationFilter@f69e35a]
+2023-05-13T18:44:34.263+02:00  INFO 19312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2023-05-13T18:44:34.272+02:00  INFO 19312 --- [main] c.Q.Q.QuizMakerAppApplication            : Started QuizMakerAppApplication in 3.938 seconds (process running for 4.181)
+2023-05-13T18:44:34.591+02:00  INFO 19312 --- [http-nio-8099-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13T18:44:34.592+02:00  INFO 19312 --- [http-nio-8099-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13T18:44:34.593+02:00  INFO 19312 --- [http-nio-8099-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-13T18:49:50.126+02:00  INFO 18756 --- [main] c.Q.Q.QuizMakerAppApplication            : Starting QuizMakerAppApplication using Java 17.0.6 with PID 18756 (F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp\build\classes\java\main started by Kosiarz in F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp)
+2023-05-13T18:49:50.127+02:00  INFO 18756 --- [main] c.Q.Q.QuizMakerAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-05-13T18:49:50.539+02:00  INFO 18756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13T18:49:50.596+02:00  INFO 18756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 6 JPA repository interfaces.
+2023-05-13T18:49:51.121+02:00  INFO 18756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2023-05-13T18:49:51.129+02:00  INFO 18756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13T18:49:51.130+02:00  INFO 18756 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-13T18:49:51.224+02:00  INFO 18756 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13T18:49:51.226+02:00  INFO 18756 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1060 ms
+2023-05-13T18:49:51.415+02:00  INFO 18756 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13T18:49:51.461+02:00  INFO 18756 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-13T18:49:51.713+02:00  INFO 18756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13T18:49:51.836+02:00  INFO 18756 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3120495d
+2023-05-13T18:49:51.837+02:00  INFO 18756 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13T18:49:51.869+02:00  INFO 18756 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-13T18:49:52.587+02:00  INFO 18756 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13T18:49:52.593+02:00  INFO 18756 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13T18:49:53.256+02:00  WARN 18756 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13T18:49:53.505+02:00  INFO 18756 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7c045627, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d79a69b, org.springframework.security.web.context.SecurityContextHolderFilter@153c69bc, org.springframework.security.web.header.HeaderWriterFilter@89dd102, org.springframework.security.web.authentication.logout.LogoutFilter@4545cfc0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@65528bcf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b517357, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@489989eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51158fb1, org.springframework.security.web.access.ExceptionTranslationFilter@60ae950f, org.springframework.security.web.access.intercept.AuthorizationFilter@f69e35a]
+2023-05-13T18:49:53.672+02:00  INFO 18756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2023-05-13T18:49:53.682+02:00  INFO 18756 --- [main] c.Q.Q.QuizMakerAppApplication            : Started QuizMakerAppApplication in 3.91 seconds (process running for 4.158)
+2023-05-13T18:49:53.849+02:00  INFO 18756 --- [http-nio-8099-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13T18:49:53.849+02:00  INFO 18756 --- [http-nio-8099-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13T18:49:53.850+02:00  INFO 18756 --- [http-nio-8099-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-13T18:50:36.478+02:00  INFO 16456 --- [main] c.Q.Q.QuizMakerAppApplication            : Starting QuizMakerAppApplication using Java 17.0.6 with PID 16456 (F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp\build\classes\java\main started by Kosiarz in F:\Users\Kosiarz\Documents\Projekty\Java\QuizMakerApp)
+2023-05-13T18:50:36.479+02:00  INFO 16456 --- [main] c.Q.Q.QuizMakerAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-05-13T18:50:36.877+02:00  INFO 16456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-13T18:50:36.939+02:00  INFO 16456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 6 JPA repository interfaces.
+2023-05-13T18:50:37.359+02:00  INFO 16456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8099 (http)
+2023-05-13T18:50:37.366+02:00  INFO 16456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13T18:50:37.366+02:00  INFO 16456 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-13T18:50:37.451+02:00  INFO 16456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13T18:50:37.453+02:00  INFO 16456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 939 ms
+2023-05-13T18:50:37.565+02:00  INFO 16456 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-13T18:50:37.603+02:00  INFO 16456 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-13T18:50:37.781+02:00  INFO 16456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-13T18:50:37.906+02:00  INFO 16456 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3120495d
+2023-05-13T18:50:37.908+02:00  INFO 16456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-13T18:50:37.934+02:00  INFO 16456 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-13T18:50:38.566+02:00  INFO 16456 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-13T18:50:38.571+02:00  INFO 16456 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-13T18:50:39.163+02:00  WARN 16456 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-13T18:50:39.413+02:00  INFO 16456 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7c045627, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d79a69b, org.springframework.security.web.context.SecurityContextHolderFilter@153c69bc, org.springframework.security.web.header.HeaderWriterFilter@89dd102, org.springframework.security.web.authentication.logout.LogoutFilter@4545cfc0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@65528bcf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b517357, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@489989eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51158fb1, org.springframework.security.web.access.ExceptionTranslationFilter@60ae950f, org.springframework.security.web.access.intercept.AuthorizationFilter@f69e35a]
+2023-05-13T18:50:39.594+02:00  INFO 16456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8099 (http) with context path ''
+2023-05-13T18:50:39.603+02:00  INFO 16456 --- [main] c.Q.Q.QuizMakerAppApplication            : Started QuizMakerAppApplication in 3.478 seconds (process running for 3.71)
+2023-05-13T18:51:00.676+02:00  INFO 16456 --- [http-nio-8099-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13T18:51:00.676+02:00  INFO 16456 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13T18:51:00.677+02:00  INFO 16456 --- [http-nio-8099-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

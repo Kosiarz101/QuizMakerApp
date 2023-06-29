@@ -1,7 +1,7 @@
 package com.QuizMaker.QuizMakerApp.repositories.jpa;
 
 import com.QuizMaker.QuizMakerApp.models.Quiz;
-import com.QuizMaker.QuizMakerApp.repositories.custom.QuizRepositoryCustom;
+import com.QuizMaker.QuizMakerApp.repositories.custom.jpa.QuizRepositoryCustom;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

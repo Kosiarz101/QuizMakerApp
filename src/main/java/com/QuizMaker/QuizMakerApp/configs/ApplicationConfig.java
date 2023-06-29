@@ -1,7 +1,6 @@
 package com.QuizMaker.QuizMakerApp.configs;
 
 import com.QuizMaker.QuizMakerApp.enums.PrivilegeEnum;
-import com.QuizMaker.QuizMakerApp.models.Privilege;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -64,4 +63,9 @@ public class ApplicationConfig {
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
+
+//    @Bean
+//    public MongoTemplate mongoTemplate() throws Exception {
+//        return new MongoTemplate(new SimpleMongoDbFactory(mongoClient(), getDatabaseName()), "test");
+//    }
 }

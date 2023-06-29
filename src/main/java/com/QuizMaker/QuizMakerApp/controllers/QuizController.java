@@ -28,6 +28,15 @@ public class QuizController {
         return ResponseEntity.status(200).body(quizzes);
     }
 
+    @GetMapping("/{id}")
+    @Transactional
+    public ResponseEntity<Quiz> getQuiz(@PathVariable("id") UUID id) {
+        Optional<Quiz> quiz = quizRepository.getQuizById(id);
+        return ResponseEntity.status(200).body(
+                quiz.orElseThrow(() -> new ResponseStatusException(HttpStatusCode.valueOf(404), "Resource with id " + id + " was not found"))
+        );
+    }
+
     @PostMapping
     @Transactional
     public ResponseEntity addQuiz(@RequestBody Quiz quiz) {
@@ -36,7 +45,7 @@ public class QuizController {
 
     @PutMapping("/{id}")
     @Transactional
-    public ResponseEntity updateQuiz(@PathVariable("id") UUID id, @RequestBody Quiz newQuiz) {
+    public ResponseEntity<Quiz> updateQuiz(@PathVariable("id") UUID id, @RequestBody Quiz newQuiz) {
         Optional<Long> entityIdOptional = quizRepository.getEntityIdById(id);
         Long entityId = entityIdOptional
                 .orElseThrow(() -> new ResponseStatusException(HttpStatusCode.valueOf(404), "Resource with id " + id + " was not found"));

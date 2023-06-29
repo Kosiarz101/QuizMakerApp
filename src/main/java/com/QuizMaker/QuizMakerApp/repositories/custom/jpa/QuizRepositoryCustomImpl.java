@@ -1,4 +1,4 @@
-package com.QuizMaker.QuizMakerApp.repositories.custom;
+package com.QuizMaker.QuizMakerApp.repositories.custom.jpa;
 
 import com.QuizMaker.QuizMakerApp.models.Quiz;
 import jakarta.persistence.EntityManager;
@@ -7,7 +7,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
-import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor

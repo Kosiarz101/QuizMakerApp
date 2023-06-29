@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+
+  mongodb:
+    image: mongo
+    restart: always
+    ports:
+      - "5433:5433"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: QuizKing777

@@ -1,4 +1,4 @@
-package com.QuizMaker.QuizMakerApp.RepositoryTests;
+package com.QuizMaker.QuizMakerApp.unittests.repositorytests;
 
 import com.QuizMaker.QuizMakerApp.enums.RoleEnum;
 import com.QuizMaker.QuizMakerApp.models.AppUser;
@@ -19,7 +19,7 @@ import org.testcontainers.utility.DockerImageName;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@SpringBootTest
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK)
 @Testcontainers
 public class AppUserRepositoryTest {
 

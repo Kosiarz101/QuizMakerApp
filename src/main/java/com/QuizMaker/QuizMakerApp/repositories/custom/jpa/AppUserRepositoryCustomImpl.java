@@ -1,4 +1,4 @@
-package com.QuizMaker.QuizMakerApp.repositories.custom;
+package com.QuizMaker.QuizMakerApp.repositories.custom.jpa;
 
 import com.QuizMaker.QuizMakerApp.models.AppUser;
 import jakarta.persistence.EntityManager;
